@@ -1,0 +1,296 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+#btn{
+  height: 55px;
+  border-color: transparent;
+}
+
+.lead {
+  font-size: 35px;
+  line-height: 30px;
+}
+
+p {
+  font-size: 50px;
+  line-height: 65px;
+}
+
+h1 {
+  font-size: 150px;
+}
+
+.contact {
+  text-decoration: none;
+  font-size: 30px;
+  color: black;
+  padding: 0px 12px;
+  font-weight: 300;
+}
+
+#buku{
+  width: 170px;
+  height: 250px;
+  border-radius: 15px;
+}
+
+#illus{
+  width: 80%;
+  height: 90%;
+  margin-left: 10%;
+}
+
+#blue{
+  background: #1a1774;
+  border-color: transparent;
+}
+
+#btn-blue{
+  background: #1a1774;
+  border-color: transparent;
+}
+#light{
+  background-color: #3b82f6;
+  border-color: transparent;
+}
+
+#sky{
+  background-color: #dbeafe;
+  border-color: transparent;
+  color: black;
+}
+
+#search{
+  max-width: 700px;
+}
+
+.tambah{
+  float: right;
+  margin-right: 52%;
+}
+
+#card{
+  /* max-width: 550px; */
+  height: 330px;
+  border-radius: 15px;
+  background: #f6f7f9;
+  border-color: transparent;
+}
+
+#text{
+  margin-left: -5%;
+}
+
+.judul{
+  color: #1a1774;
+}
+
+.price{
+  color: #1a1774;
+}
+
+.total{
+  float: right;
+}
+
+#profile{
+  margin-left: 280px;
+}
+
+.menu{
+  margin-left: 25%;
+}
+
+.pegawai{
+  float: right;
+  margin-right: 51%;
+}
+
+.cat{
+  float: right;
+  margin-right: 53%
+}
+
+#img{
+  border-radius: 20px;
+}
+
+#contact{
+  margin-right: 5%;
+}
+
+.bg-home{
+  background-size: cover;
+}
+
+.dashboard {
+  background-color: #f5f5f5;
+  font-family: 'Josefin Sans', sans-serif;
+  /* min-height: 1000vh; */
+  height: auto;
+  font-family: "Raleway", sans-serif;
+  background-image: url("/public/assets/bg-sign.png");
+  background-repeat: no-repeat;
+  background-size: 700px 750px;
+  background-attachment: fixed;
+  background-position: right bottom; 
+}
+
+.dashboard1{
+  background-color: #f5f5f5;
+  font-family: 'Josefin Sans', sans-serif;
+  /* min-height: 1000vh; */
+  height: auto;
+  font-family: "Raleway", sans-serif;
+  background-image: url("/public/assets/bg-login.png");
+  background-repeat: no-repeat;
+  background-size: 700px 750px;
+  background-attachment: fixed;
+  background-position: right bottom; 
+}
+
+#sign-card{
+  width: 35%;
+  height: 500px;
+  border-color: transparent;
+  background-color: #f5f5f5;
+  box-shadow: 0.2rem 0.3rem 1rem 0.2rem #a5a5a5;
+  margin-left: 6%;
+}
+
+.input-group{
+  width: 100%;
+  position: relative;
+  margin-left: 9%;
+}
+
+.form{
+  margin: 2rem auto;
+  width: 80%;
+  border: none;
+  padding: 0.5rem 0.5rem;
+}
+
+/* #sign-text{
+  color: #1a1774;
+}
+
+#title-sign{
+  color: #1a1774;
+} */
+
+.form:focus{
+  border: none;
+  outline: none;
+}
+
+.form-text{
+  font-size: small;
+  font-weight: 100;
+  color: #1a1774;
+  position: absolute;
+  background: #f5f5f5;
+}
+
+.button-sign{
+  width: 80%;
+}
+
+#logo{
+  width: 15%;
+}
+
+#confirm{
+  font-size: small;
+  font-weight: 100;
+}
+/* 
+#confirm1{
+  font-size: small;
+  margin-bottom: -40px;
+} */
+
+#cr-account{
+  color: #1a1774;
+  text-decoration: none;
+}
+
+.form::-webkit-input-placeholder{
+	font-size: small;
+  font-weight: 50;
+}
+
+.media{
+  align-items: center;
+}
+
+.profile-img{
+  width: 60%;
+  border-radius: 70%;
+}
+
+#loc-icon{
+  margin-top: -35%;
+  font-size: 60px;
+  color: #1a1774;
+}
+
+#gen-icon{
+  font-weight: bold;
+}
+
+#loc-card{
+  border-color: transparent;
+  box-shadow: 0.1rem 0.2rem 0.5rem 0.1rem #dfdfdf;
+}
+
+#pic-category{
+  width: 100%;
+  height: 240px;
+}
+/* #card-profile{
+  box-shadow: 0.2rem 0.3rem 0.7rem 0.2rem #dfdfdf;
+  border-color: transparent;
+} */
+
+
+#desc-category{
+  font-size: small;
+}
+
+.contain{
+  background-color: #fff;
+  min-height: 100vh;
+}
+
+#card-forgot{
+  width: 30%;
+  height: 510px;
+}
+
+#link{
+  font-size: small;
+}
+
+#card-change{
+  width: 30%;
+  height: 430px;
+}
+
